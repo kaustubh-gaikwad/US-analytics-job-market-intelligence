@@ -176,6 +176,6 @@ Anyone exploring U.S. analytics job market trends
 Kaustubh Gaikwad
 Master’s Student — Business Analytics
 Data Analytics | SQL | Tableau | Applied Market Intelligence
-LinkedIn:https:http://linkedin.com/in/kaustubhgaikwad-msba
+LinkedIn: http://linkedin.com/in/kaustubhgaikwad-msba
 
 
