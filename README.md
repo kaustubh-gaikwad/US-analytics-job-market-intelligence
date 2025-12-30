@@ -66,60 +66,33 @@ Version control, documentation, and project organization
 
 📊 Dashboard (Live)
 
-🔗 Tableau Public Dashboard:
-👉 U.S. Analytics Job Market Intelligence Dashboard
+ Tableau Public Dashboard:
+
+ U.S. Analytics Job Market Intelligence Dashboard
 (https://public.tableau.com/app/profile/kaustubh.gaikwad/viz/U_S_AnalyticsJobMarketIntelligenceDashboard/U_S_AnalyticsJobMarketIntelligence)
 
 Dashboard Components:
 
-Pay vs Demand Scatter Plot
-Salary vs demand with employment represented by bubble size
+1. Pay vs Demand Scatter Plot
+- Salary vs demand with employment represented by bubble size
 
-Top Analytics Roles by Salary
-Comparison of compensation across analytics occupations
+2. Top Analytics Roles by Salary
+- Comparison of compensation across analytics occupations
 
-Top Metro Analytics Opportunities (Table)
-Metro-level breakdown with salary, employment, and opportunity score
+3. Top Metro Analytics Opportunities (Table)
+- Metro-level breakdown with salary, employment, and opportunity score
 
-Role Family Opportunity Summary
-Average opportunity score by analytics role family
+4. Role Family Opportunity Summary
+- Average opportunity score by analytics role family
 
-Global filters allow users to explore results by:
+5. Global filters allow users to explore results by:
 
-State
+- State
 
-Role family
+- Role family
 
-Employment scale
+- Employment scale
 
-
-## 📁 Repository Structure
-The repository is organized to clearly separate data, SQL transformations, visualization assets, and documentation.
-
-
-```text
-US-analytics-job-market-intelligence/
-├── README.md                  # Project overview (this file)
-├── LICENSE
-├── .gitignore
-├── sql/
-│   ├── 00_data_exploration_notes.md
-│   ├── 01_raw_oews_ingestion.sql
-│   ├── 02_role_filtering.sql
-│   ├── 03_opportunity_score.sql
-│   └── README_sql.md
-├── data/
-│   ├── README_data.md
-│   ├── schema_oews_tables.md
-│   ├── data_dictionary.md
-│   └── sample_oews_rows.csv
-├── assets/
-│   ├── dashboard_banner.png
-│   ├── pay_vs_demand_scatter.png
-│   ├── top_metro_opportunities_table.png
-│   └── role_family_summary.png
-└── tableau/
-    └── dashboard_notes.md
 
 
 
@@ -174,8 +147,40 @@ Anyone exploring U.S. analytics job market trends
 👤 Author
 
 Kaustubh Gaikwad
+
 Master’s Student — Business Analytics
+
 Data Analytics | SQL | Tableau | Applied Market Intelligence
+
 LinkedIn: http://linkedin.com/in/kaustubhgaikwad-msba
+
+
+## 📁 Repository Structure
+The repository is organized to clearly separate data, SQL transformations, visualization assets, and documentation.
+
+```text  
+
+US-analytics-job-market-intelligence/
+├── README.md                  # Project overview (this file)
+├── LICENSE
+├── .gitignore
+├── sql/
+│   ├── 00_data_exploration_notes.md
+│   ├── 01_raw_oews_ingestion.sql
+│   ├── 02_role_filtering.sql
+│   ├── 03_opportunity_score.sql
+│   └── README_sql.md
+├── data/
+│   ├── README_data.md
+│   ├── schema_oews_tables.md
+│   ├── data_dictionary.md
+│   └── sample_oews_rows.csv
+├── assets/
+│   ├── dashboard_banner.png
+│   ├── pay_vs_demand_scatter.png
+│   ├── top_metro_opportunities_table.png
+│   └── role_family_summary.png
+└── tableau/
+    └── dashboard_notes.md
 
 
