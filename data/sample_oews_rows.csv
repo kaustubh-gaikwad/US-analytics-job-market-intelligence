@@ -1,0 +1,26 @@
+﻿area_name,state_abbr,state_name,occ_title,role_family,employment,annual_mean_wage,location_quotient,demand_score,opportunity_score
+"Mobile, AL",AL,Alabama,Budget Analysts,Finance Analyst,50,85430,0.9,3.52,39.98
+Southeast Alabama nonmetropolitan area,AL,Alabama,Budget Analysts,Finance Analyst,40,81560,1.75,6.46,73.01
+"Huntsville, AL",AL,Alabama,Budget Analysts,Finance Analyst,580,111530,7.31,46.51,540.58
+"Birmingham, AL",AL,Alabama,Budget Analysts,Finance Analyst,70,89530,0.43,1.83,20.83
+"Montgomery, AL",AL,Alabama,Budget Analysts,Finance Analyst,120,68390,2.43,11.63,129.52
+"Fairbanks-College, AK",AK,Alaska,Budget Analysts,Finance Analyst,80,90820,6.92,30.32,346.19
+Alaska nonmetropolitan area,AK,Alaska,Budget Analysts,Finance Analyst,80,99170,2.56,11.22,129.06
+"Anchorage, AK",AK,Alaska,Budget Analysts,Finance Analyst,140,95300,2.54,12.55,143.9
+"Phoenix-Mesa-Chandler, AZ",AZ,Arizona,Budget Analysts,Finance Analyst,410,87970,0.58,3.49,39.73
+Arizona nonmetropolitan area,AZ,Arizona,Budget Analysts,Finance Analyst,30,80330,1.07,3.64,41.1
+"Little Rock-North Little Rock-Conway, AR",AR,Arkansas,Budget Analysts,Finance Analyst,150,68970,1.36,6.81,75.92
+"Fresno, CA",CA,California,Budget Analysts,Finance Analyst,90,82730,0.64,2.88,32.61
+"Santa Maria-Santa Barbara, CA",CA,California,Budget Analysts,Finance Analyst,80,106490,1.23,5.39,62.39
+"San Jose-Sunnyvale-Santa Clara, CA",CA,California,Budget Analysts,Finance Analyst,350,139460,1,5.86,69.39
+"Dothan, AL",AL,Alabama,Management Analysts,Business Analyst,30,98330,0.09,0.31,3.52
+"Tuscaloosa, AL",AL,Alabama,Management Analysts,Business Analyst,150,104540,0.24,1.2,13.9
+"Decatur, AL",AL,Alabama,Management Analysts,Business Analyst,50,96220,0.13,0.51,5.84
+"Fairbanks-College, AK",AK,Alaska,Management Analysts,Business Analyst,90,101940,0.42,1.89,21.79
+"Anchorage, AK",AK,Alaska,Management Analysts,Business Analyst,250,108040,0.25,1.38,16
+Alaska nonmetropolitan area,AK,Alaska,Management Analysts,Business Analyst,70,111210,0.12,0.51,5.92
+"Yuma, AZ",AZ,Arizona,Management Analysts,Business Analyst,240,90250,0.6,3.29,37.52
+North Valley-Northern Mountains Region of California nonmetropolitan area,CA,California,Operations Research Analysts,Operations Research,30,109300,0.42,1.43,16.57
+"Bakersfield-Delano, CA",CA,California,Operations Research Analysts,Operations Research,110,109270,0.47,2.21,25.63
+"Colorado Springs, CO",CO,Colorado,Operations Research Analysts,Operations Research,190,127570,0.84,4.41,51.82
+"Denver-Aurora-Centennial, CO",CO,Colorado,Operations Research Analysts,Operations Research,600,104150,0.53,3.39,39.17
