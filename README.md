@@ -1,20 +1,23 @@
-U.S. Analytics Job Market Intelligence Dashboard
+## U.S. Analytics Job Market Intelligence Dashboard
 
 📌 Project Overview
 
 This project delivers an end-to-end analytics view of the U.S. job market for analytics roles, combining public labor statistics, cloud-based SQL analysis, and interactive data visualization.
 
-The goal is to identify high-pay, high-demand, and high-opportunity analytics roles across U.S. metropolitan areas, helping answer questions such as:
+The goal is to identify high-pay, high-demand, and high-opportunity analytics roles across U.S. metropolitan areas.
 
-Which analytics roles offer the best balance of salary and demand?
+## Business Questions Answered
 
-Which metro areas show strong concentration and hiring potential?
+This project was designed to answer the following real-world analytics questions:
 
-How do different analytics role families compare on opportunity metrics?
+1. Which U.S. metro areas offer the best combination of high pay and strong demand for analytics roles?
+2. How does employment concentration vary across role families (Statistics, Finance, Business, Operations Research)?
+3. Which roles consistently appear in the top 5% of opportunity across locations?
+4. Are high-paying roles always high-demand, or are there mismatches? 
 
 The final output is an interactive Tableau dashboard supported by a documented SQL pipeline and clean project structure.
 
-🔍 Data Source
+## 🔍 Data Source
 
 U.S. Bureau of Labor Statistics (BLS)
 Occupational Employment and Wage Statistics (OEWS)
@@ -37,7 +40,7 @@ This project uses publicly available labor market data from the **U.S. Bureau of
 
 The OEWS program provides detailed employment and wage estimates by occupation and geographic area across the United States.
 
-🧠 Key Analytical Concepts
+## 🧠 Key Analytical Concepts
 
 This project goes beyond simple salary comparisons and introduces a composite Opportunity Score, designed to capture overall job attractiveness.
 
@@ -53,7 +56,21 @@ Demand indicators (relative hiring intensity)
 
 This metric helps surface roles that may not have the highest salaries but offer strong, sustainable career potential.
 
-🛠️ Tech Stack
+## Opportunity Score Definition
+
+The Opportunity Score is a composite metric designed to capture job market attractiveness:
+
+Opportunity Score =
+Employment × Location Quotient × Demand Score
+
+Where:
+- Employment represents job availability
+- Location Quotient captures regional concentration vs national average
+- Demand Score reflects market demand intensity
+
+This metric prioritizes roles that are both well-paid and structurally in demand.
+
+## 🛠️ Tech Stack
 
 SQL (Google BigQuery)
 Data ingestion, filtering, aggregation, and metric calculation
@@ -64,7 +81,7 @@ Interactive dashboards and exploratory visual analysis
 GitHub
 Version control, documentation, and project organization
 
-📊 Dashboard (Live)
+## 📊 Dashboard (Live)
 
  Tableau Public Dashboard:
 
@@ -96,7 +113,7 @@ Dashboard Components:
 
 
 
-🧪 SQL Pipeline Summary
+## 🧪 SQL Pipeline Summary
 
 The SQL workflow follows a clean, production-style sequence:
 
@@ -126,15 +143,22 @@ The SQL workflow follows a clean, production-style sequence:
 
 Each step is documented in the /sql directory.
 
-📈 Key Insights
+## Key Insights
 
-Some mid-sized metro areas outperform large cities on opportunity score due to high role concentration
+- Management Analysts and Statisticians dominate the top 5% opportunity cluster across multiple metro areas.
+- Some high-paying roles show low demand, highlighting compensation-demand mismatches.
+- Mid-sized metros (not only major hubs) offer strong opportunity scores due to high specialization concentration.
 
-High salary alone does not guarantee high opportunity
 
-Certain analytics role families consistently show stronger demand and geographic concentration
+## Production & Scaling Considerations
 
-🎯 Who This Project Is For
+If implemented in a production analytics environment:
+- Data ingestion would be automated via scheduled BigQuery pipelines
+- Opportunity Score logic could be materialized as a view or scheduled table
+- Dashboards would refresh automatically using Tableau Server or Looker
+- Filters would enable recruiter, student, or policymaker use cases
+
+## 🎯 Who This Project Is For
 
 Recruiters evaluating analytics talent portfolios
 
@@ -144,7 +168,7 @@ Students and early-career analysts learning applied analytics
 
 Anyone exploring U.S. analytics job market trends
 
-👤 Author
+## 👤 Author
 
 Kaustubh Gaikwad
 
