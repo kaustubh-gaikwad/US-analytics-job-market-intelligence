@@ -1,6 +1,6 @@
 ## U.S. Analytics Job Market Intelligence Dashboard
 
-📌 Project Overview
+ ## Project Overview
 
 This project delivers an end-to-end analytics view of the U.S. job market for analytics roles, combining public labor statistics, cloud-based SQL analysis, and interactive data visualization.
 
@@ -17,7 +17,7 @@ This project was designed to answer the following real-world analytics questions
 
 The final output is an interactive Tableau dashboard supported by a documented SQL pipeline and clean project structure.
 
-## 🔍 Data Source
+##  Data Source
 
 U.S. Bureau of Labor Statistics (BLS)
 Occupational Employment and Wage Statistics (OEWS)
@@ -40,7 +40,7 @@ This project uses publicly available labor market data from the **U.S. Bureau of
 
 The OEWS program provides detailed employment and wage estimates by occupation and geographic area across the United States.
 
-## 🧠 Key Analytical Concepts
+##  Key Analytical Concepts
 
 This project goes beyond simple salary comparisons and introduces a composite Opportunity Score, designed to capture overall job attractiveness.
 
@@ -69,19 +69,15 @@ Where:
 - Demand Score reflects market demand intensity
 
 This metric prioritizes roles that are both well-paid and structurally in demand.
+ 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-SQL (Google BigQuery)
-Data ingestion, filtering, aggregation, and metric calculation
+- **SQL (Google BigQuery)** — data ingestion, transformation, aggregation, and metric engineering  
+- **Tableau Public** — interactive dashboards, exploratory analysis, and storytelling  
+- **GitHub** — version control, documentation, and reproducible analytics workflows
 
-Tableau Public
-Interactive dashboards and exploratory visual analysis
-
-GitHub
-Version control, documentation, and project organization
-
-## 📊 Dashboard (Live)
+##  Dashboard (Live)
 
  Tableau Public Dashboard:
 
@@ -113,7 +109,7 @@ Dashboard Components:
 
 
 
-## 🧪 SQL Pipeline Summary
+##  SQL Pipeline Summary
 
 The SQL workflow follows a clean, production-style sequence:
 
@@ -146,7 +142,7 @@ Each step is documented in the /sql directory.
 ## Key Insights
 
 - Management Analysts and Statisticians dominate the top 5% opportunity cluster across multiple metro areas.
-- Some high-paying roles show low demand, highlighting compensation-demand mismatches.
+- Several high-paying roles appear below median demand levels, indicating compensation–demand mismatches across metros.
 - Mid-sized metros (not only major hubs) offer strong opportunity scores due to high specialization concentration.
 
 
@@ -158,7 +154,7 @@ If implemented in a production analytics environment:
 - Dashboards would refresh automatically using Tableau Server or Looker
 - Filters would enable recruiter, student, or policymaker use cases
 
-## 🎯 Who This Project Is For
+##  Who This Project Is For
 
 Recruiters evaluating analytics talent portfolios
 
@@ -167,6 +163,15 @@ Hiring managers seeking market insights
 Students and early-career analysts learning applied analytics
 
 Anyone exploring U.S. analytics job market trends
+
+## Potential Extensions
+
+- Time-series trend analysis
+
+- Automation via scheduled BigQuery jobs
+
+- Comparison with job posting data (Indeed/LinkedIn)
+  
 
 ## 👤 Author
 
